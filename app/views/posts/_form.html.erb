@@ -1,0 +1,9 @@
+<%= form_for(@post) do |f| %>
+<%= f.collection_select(:category_id, Category.all, :id, :name, {prompt: "Escolha uma categoria" }) %><br>
+<%= f.label :title %><br>
+<%= f.text_field :title, placeholder: "Digite o título do post aqui" %><br>
+<%= f.label :content %><br>
+<%= f.text_area :content, size: “60x12”, placeholder: "Digite o texto do post aqui" %><br>
+
+<%= f.submit %>
+<% end %>
