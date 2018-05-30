@@ -1,5 +1,7 @@
 # README
 
+# Source: https://medium.com/@bruno_boehm/full-blog-app-tutorial-on-rails-zero-to-deploy-4c19e8174791
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
